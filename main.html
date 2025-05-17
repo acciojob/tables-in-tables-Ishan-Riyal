@@ -4,11 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
+	  
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
+  <table border style="width: 100%; height: 100%">
       <!-- Your code here -->
+      <tr>
+        <!-- upper Left -->
+        <td>
+          <table border style="width: 100%; height: 100%; margin: 50px auto">
+            <th colspan="2">Nested table 2</th>
+            <tr>
+              <td>Column 1</td>
+              <td>Column 2</td>
+            </tr>
+            <tr>
+              <td>abc</td>
+              <td>def</td>
+            </tr>
+          </table>
+        </td>
+
+        <!-- upper right -->
+        <td>
+          <table border style="width: 100%; height: 100%; margin: 50px auto">
+            <th colspan="2">Nested table 1</th>
+            <tr>
+              <td>
+                <ul>
+                  <li>List Item</li>
+                  <li>List Item</li>
+                  <li>List Item</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- lower left -->
+      <tr>
+        <td>
+          <table border style="width: 100%; height: 100%; margin: 50px auto">
+            <th colspan="2">Nested table 3</th>
+            <tr>
+              <td>Nested table</td>
+              <td>Demo Continued</td>
+            </tr>
+          </table>
+        </td>
+
+        <!-- lower right -->
+        <td>
+          <table border style="width: 100%; height: 100%; margin: 50px auto">
+            <th colspan="2">Nested Table 4</th>
+            <tr>
+              <td colspan="2" style="background-color: black; color: white">
+                HTML
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
     </table>
   </body>
 </html>
